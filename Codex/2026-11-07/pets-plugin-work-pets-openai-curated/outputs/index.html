@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f4ed">
+  <meta name="description" content="With grateful hearts, Murshi and Asna invite you to celebrate their wedding on 27 December 2026.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Murshi & Asna — A day to remember">
+  <meta property="og:description" content="With grateful hearts, we invite you to celebrate our wedding. 27 December 2026.">
+  <meta property="og:image" content="assets/couple-by-the-sea.jpg">
+  <title>Murshi & Asna — Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <audio id="music" src="assets/wedding-nasheed.mov" preload="none" loop></audio>
+  <button class="music-toggle" aria-label="Play wedding nasheed" title="Play music"><span class="music-bars"><i></i><i></i><i></i><i></i></span><span class="music-label">Music</span></button>
+  <main>
+    <section class="cover" id="home" aria-label="Wedding invitation cover">
+      <div class="cover-photo"></div><div class="cover-shade"></div><div class="cover-petals" aria-hidden="true"></div><div class="gold-glint"></div>
+      <div class="cover-frame"><span class="eyebrow light">A WEDDING INVITATION</span><div class="ornament">✳</div>
+        <h1>Murshi <em>&</em><br>Asna</h1><p class="cover-date">27 <span>·</span> 12 <span>·</span> 2026</p>
+        <button class="open-invite"><span>Open invitation</span><b>↗</b></button>
+        <div class="cover-foot">A new chapter, written together</div>
+      </div>
+      <div class="gold-glint"></div>
+    </section>
+    <div class="invitation" id="invitation">
+      <section class="welcome section-pad reveal">
+        <img class="bismillah" src="assets/bismillah-calligraphy.png" alt="Bismillah ir-Rahman ir-Raheem" width="500" height="500">
+        <div class="tiny-rule"><i></i></div>
+        <h2>Two hearts.<br><em>One beautiful beginning.</em></h2>
+        <p class="message">With hearts full of gratitude and joy, our families warmly invite you to witness and celebrate the beginning of our forever.</p>
+        <p class="signature">Murshi <span>&</span> Asna</p>
+        <a class="scroll-cue" href="#date"><span>Scroll to discover</span><i></i></a>
+      </section>
+      <section class="date-section section-pad" id="date">
+        <div class="date-copy reveal"><span class="eyebrow">A LITTLE MOMENT TO REVEAL</span><h2>The day our<br><em>forever begins</em></h2><p>Gently brush away the petals to reveal our day.</p></div>
+        <div class="scratch-card reveal" aria-label="Scratch to reveal wedding date">
+          <div class="scratch-under"><span class="eyebrow">SAVE THE DATE</span><strong>27</strong><span class="month">DECEMBER · 2026</span><span class="date-blessing">A day made brighter with you</span></div>
+          <canvas id="scratch" aria-label="Scratch here to reveal the date. You can also tap to reveal it."></canvas>
+          <button class="reveal-date">Tap to reveal</button>
+          <div class="petals" aria-hidden="true"></div>
+        </div>
+      </section>
+      <section class="countdown section-pad reveal"><span class="eyebrow">COUNTING DOWN TO OUR DAY</span><h2>Until we say <em>“I do”</em></h2><div class="timer"><div><b id="days">—</b><span>days</span></div><i></i><div><b id="hours">—</b><span>hours</span></div><i></i><div><b id="minutes">—</b><span>minutes</span></div><i></i><div><b id="seconds">—</b><span>seconds</span></div></div></section>
+      <section class="portrait-section section-pad">
+        <div class="portrait-intro reveal"><span class="eyebrow">THE BEGINNING OF ALWAYS</span><h2>Our story,<br><em>in little moments</em></h2></div>
+        <figure class="photo photo-one reveal"><img src="assets/couple-by-the-sea.jpg" alt="Murshi and Asna standing together by the sea" loading="lazy"><figcaption>Where the world feels quiet, and our hearts feel at home.</figcaption></figure>
+        <figure class="photo photo-two reveal"><img src="assets/couple-at-the-waterline.jpg" alt="Murshi and Asna sharing a playful moment at the waterline" loading="lazy"><figcaption>Every little adventure is better, together.</figcaption></figure>
+      </section>
+      <section class="venue section-pad reveal"><div class="venue-mark">✳</div><span class="eyebrow">PLEASE JOIN US</span><h2>For the beginning<br>of our <em>forever</em></h2><div class="venue-rule"></div><p class="venue-date">Sunday, 27 December 2026</p><p class="venue-time" data-edit="time">Wedding Time</p><p class="venue-name" data-edit="venue">Venue Name</p><p class="venue-note">We can’t wait to celebrate with you.</p><a class="map-button" href="https://maps.app.goo.gl/aqjH4vCyVqa8a5rr6" target="_blank" rel="noopener">Find us on the map <span>↗</span></a></section>
+      <footer><div class="footer-flower">✳</div><p>With love,</p><h2>Murshi <em>&</em> Asna</h2><span>27 · 12 · 2026</span></footer>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
